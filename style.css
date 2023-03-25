@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --first: #e99b22;
+    --second: #318995;
+    --third: #246974;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'agency';
+}
+p{
+    font-family: 'calibri';
+}
+
+/* carousel and top bar section */
+.crsl_img_1{
+    background: linear-gradient(#2e3a6a24, #333c5921),url(assets/images/banner/banner-2.jpg);
+    width: 100%;
+    min-height: 80vh;
+    background-repeat: no-repeat;
+}
+.crsl_img_2{
+    background: linear-gradient(#1f2c4f, #18253e82),url(assets/images/banner/banner-1.jpg);
+    width: 100%;
+    min-height: 80vh;
+    background-repeat: no-repeat;
+}
+.crsl_back{
+    position: relative;
+}
+.crsl_back .top_bar{
+    position: absolute;
+    top: 0;
+}
+.top_cont{
+    color: white;
+    text-align: start;
+}
+.top_cont h5{
+    font-size: 16px;
+}
+.top_cont small{
+    font-size: 13px;
+    color: #96a5e4;
+}
+
+.header-btn{
+    background-color:#3740b0;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 12px;
+}
+nav{
+    background-color: #161f44b4;
+}
+
+.crsl_back .carousel-indicators button{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+}
+
+.crsl_cont h2{
+    font-size: 5rem;
+    color: white;
+    letter-spacing: 10px;
+}
+.crsl_cont p{
+    color: white;
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+.crsl_cont .carousel-btn{
+    padding: 15px 30px;
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    letter-spacing: 2px;
+    transition: 0.4s;
+}
+.crsl_cont .carousel-btn:hover{
+    background-color: white;
+    color: #3740b0;
+}
+.crsl_cont .carousel-btn2{
+    padding: 15px 30px;
+    background-color:#3740b0;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    letter-spacing: 2px;
+}
+.crsl_cont h4{
+    color: white;
+    font-size: 0.9rem;
+    letter-spacing: 10px;
+}
+
+
+/* top down section */
+
+.top_down{
+    background-color: #f5f5f5;
+}
+.top_down h2{
+    color: #3740b0;
+}
+
+/* service section */
+
+.service_section h1{
+    color: #3740b0;
+}
+.service_back{
+    background-image: url(./assets/images/content/hp-1-service-title-bg-2.png);
+    width: 100%;
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.service_card{
+    text-align: center;
+    box-shadow: 0 0 74px rgba(10, 10, 10,0.07);
+}
+.service_card h3{
+    color: #e7794c;
+}
+
+/* talk to us section */
+
+.talk_to_us{
+    background: linear-gradient(#413f8bea,#413f8bea),url(assets/images/banner/banner-1.jpg);
+    width: 100%;
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+
+}
+.talk_to_us h1{
+    color: white;
+    font-size: 3rem;
+    letter-spacing: 3px;
+}
+.talk_to_us p{
+    font-size: 20px;
+    color: #d57253;
+}
+.talk_to_us .talk-btn{
+    background-color:white;
+    color: #3740b0;
+    text-decoration: none;
+    padding: 13px 28px;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+
+/* trusted section */
+
+.trusted_card_back{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.trusted_card p{
+    color: #373fb09a;
+}
+.trusted_card h2{
+    color: #373fb0;
+    font-size: 2.5rem;
+}
+.trusted_card .trusted-btn{
+    background-color:white;
+    color: #3740b0;
+    border: 1px solid #3740b0;
+    text-decoration: none;
+    padding: 13px 28px;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.trusted-btn:hover{
+    background-color:#3740b0;
+    color: white;
+} 
+
+.trusted_card_back2{
+    background-color: #3740b0;
+}
+.trusted_card2 h2{
+    color: white;
+    font-size: 2.5rem;
+}
+.trusted_card2 p{
+    color: #ffffffb9;
+}
+.trusted_card2 ul{
+    list-style: none;
+    padding: 0;
+}
+.trusted_card2 ul li {
+    color: #ffffffb9;
+}
+
+.trusted_card2 .trusted-btn2{
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 13px 28px;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 30px;
+    transition: 0.5s;
+     
+}
+
+.trusted-btn2:hover{
+    background-color: white;
+    color: #3740b0;
+} 
+
+
+/* news section */
+
+.news_section h1{
+    color: #3740b0;
+}
+.news_back{
+    background-image: url(./assets/images/content/hp-1-blog-title-bg-1.png);
+    width: 100%;
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.news_cont{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    color: #959595;
+}
+.news_cont h3{
+    color: #3740b0;
+}
+.news_cont a{
+    text-decoration: none;
+}
+
+/* testimonial section */
+
+.testimonial_back{
+    background-image: url(./assets/images/content/home-1-testimonial-bg.jpg);
+    width: 100%;
+    min-height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.testimonial_back h3{
+    color: white;
+    font-size: 4rem;
+}
+.testimonial_back .test_cont p{
+    color: rgba(255, 255, 255, 0.534);
+    text-align: center;
+    font-size: 1.3rem;
+}
+.test_crsl .carousel-indicators{
+    bottom: -40px;
+}
+
+
+/* stats section */
+.stats_section{
+    background-color: #f0f0f0;
+}
+.stats_back{
+    background-image: url(./assets/images/content/about-title-bg-stats.png);
+    width: 100%;
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#prg_counter{
+    display: flex;
+    align-items: center;
+}
+.prg_back{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.prg_back .plus h3.prg-count::after {
+    content: " +";
+    display: inline-block;
+}
+.prg_back .percantage h3::after {
+    content: " %";
+    display: inline-block;
+}
+
+/* media query */
+
+/* @media screen and (min-width: 450px) and (max-width: 768px){
+    #top_bar_header{
+        display: none;
+    }
+    nav{
+        background-color: #161f44;
+    }
+} */
+
+/* @media screen and (max-width: 320px){
+    #top_bar_header{
+        display: none;
+    }
+    nav{
+        background-color: #161f44;
+    }
+    .crsl_cont h2{
+        font-size: 3rem;
+        color: white;
+        letter-spacing: 1px;
+    }
+    .crsl_cont p {
+        font-size: 15px;
+        text-align: justify;
+    }
+    .crsl_cont .carousel-btn{
+        padding: 15px 25px;
+    }
+} */
+
+
+@media screen and (max-width: 768px){
+    #top_bar_header{
+        display: none;
+    }
+    nav{
+        background-color: #161f44;
+    }
+    .testimonial_back h3{
+        font-size: 2rem;
+    }
+    .testimonial_back .test_cont p{
+        font-size: 1rem;
+    }
+    .test_crsl .carousel-indicators{
+        bottom: -40px;
+    }
+}
+
+@media screen and (min-width:390px) and (max-width:550px){
+    .crsl_cont h2{
+        font-size: 3rem;
+        color: white;
+        letter-spacing: 0px;
+    }
+    .crsl_cont p {
+        font-size: 15px;
+        text-align: justify;
+    }
+    .crsl_cont .carousel-btn{
+        padding: 15px 19px;
+    }
+    .crsl_cont .carousel-btn2{
+        padding: 15px 19px;
+    }
+    .navbar-brand img{
+        width: 60px;
+    }
+    .test_crsl .carousel-indicators{
+        bottom: -25px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:390px){
+    .crsl_cont h2{
+        font-size: 3rem;
+        color: white;
+        letter-spacing: 0px;
+    }
+
+    .crsl_cont .carousel-btn{
+        padding: 15px 17px;
+        font-size: 12px;
+    }
+    .crsl_cont .carousel-btn2{
+        padding: 15px 17px;
+        font-size: 12px;
+    }
+    .navbar-brand img{
+        width: 60px;
+    }
+    .test_crsl .carousel-indicators{
+        bottom: -20px;
+    }
+}
