@@ -22,12 +22,14 @@ p{
     width: 100%;
     min-height: 80vh;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .crsl_img_2{
     background: linear-gradient(#1f2c4f, #18253e82),url(assets/images/banner/banner-1.jpg);
     width: 100%;
     min-height: 80vh;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .crsl_back{
     position: relative;
