@@ -424,6 +424,13 @@ nav{
 .bottom_footer_section i{
     color: white;
 }
+
+#wanna .trusted_card_back{
+    min-height: 45vh;
+}
+#wanna .trusted_card_back2{
+    min-height: 45vh;
+}
 /* media query */
 
 
